@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <title>HEART</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      html,
+      body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      	
+        z-index: -3;
+        background-color: black;
+      }
+      canvas {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="text-effect-wrapper" id="text-effect-wrapper">
+
+      <div class="Hoang">
+        <h1 class="text" contenteditable>Hoang</h1>
+        <p></p>
+        <h1>.</h1>
+      </div>
+      <div class="box">
+        <canvas id="pinkboard"></canvas>
+        <p></p>
+      </div>
+      
+      <div>
+        <h1 class="text" contenteditable>Hiền</h1>
+      </div>
+      <label for="option-toggle">
+        <input type="checkbox" id="option-toggle"> Click here
+      </label>
+    </div>
+    <script src="heart.js"> </script>
+  </body>
+</html>
